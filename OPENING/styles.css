@@ -440,90 +440,72 @@ main {
   html, body {
     width: 100%;
     overflow-x: hidden;
-    font-size: 14px; /* Adjust base size for scaling */
+    font-size: 3.8vw; /* Scales all text and spacing */
   }
 
-  #banner {
-    height: 15rem;
+  /* Make all images scale properly */
+  img {
+    max-width: 100%;
+    height: auto;
   }
 
+  #banner,
   #banner img {
-    height: 15rem;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     object-position: center top;
   }
 
-  #upperContainer {
-    margin: 1rem;
+  #upperContainer,
+  #layout,
+  .mainContainer,
+  #lower_mainContainer,
+  #upper_mainContainer,
+  .lower-container-wrapper,
+  .book,
+  .cover {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   #upperContainer h1 {
-    font-size: 9vw;
-    text-align: center;
+    font-size: clamp(1.5rem, 10vw, 4rem);
   }
 
-  #upperContainer p {
-    font-size: 4vw;
-    text-align: center;
+  #upperContainer p,
+  #leftText,
+  #rightContainer p,
+  #rightContainer li a {
+    font-size: clamp(0.9rem, 4vw, 1.2rem);
   }
 
   .profile {
     width: 80px;
     height: 80px;
-    left: 0;
   }
 
   #imgBubbles {
     display: none;
   }
 
-  #layout {
-    flex-direction: column;
-    margin: 1rem;
-    padding: 0;
+  .lastImg img:nth-child(1) {
+    height: auto;
   }
 
-  main {
-    width: 100%;
-    padding: 10px;
-  }
-
-  .mainContainer {
-    border-width: 1px;
-    border-radius: 10px;
-  }
-
-  #lower_mainContainer, 
-  #upper_mainContainer {
-    max-height: none;
-    padding: 1rem;
-    overflow-y: visible;
-  }
-
-  #rightContainer,
-  #leftContainer {
-    display: none;
-  }
-
-  .small {
-    display: flex;
+  .lastImg img:nth-child(2) {
+    max-width: 100px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .book,
   .cover {
-    width: 100%;
     height: auto;
-  }
-
-  .cover.open {
-    transform: rotateY(-120deg);
-  }
-
-  .lastImg img:nth-child(1) {
-    height: auto;
-    max-width: 100%;
-  }
-
-  .lastImg img:nth-child(2) {
-    width: 80px;
+    padding: 10px;
   }
 }
+
