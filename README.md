@@ -3,13 +3,13 @@
 
 Hi love 💕,
 
-I made this page just for you, so take your time and enjoy it. I HIGHLY SUGGEST you open this with your laptop 💻✨
+I made this page just for you, continue to scroll down to see the link and take your time and enjoy it. I HIGHLY SUGGEST you open this with your laptop 💻✨
 
 ---
 
 ## 📖 What's Inside?
 
-ONLY ONE WAY TO FIND OUT IS TO SEE FOR YOURSELF~
+ONLY WAY TO FIND OUT IS TO SEE FOR YOURSELF~
 
 ---
 
