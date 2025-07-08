@@ -436,3 +436,94 @@ main {
     max-width: 100%;
   }
 }
+@media (max-width: 600px) {
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 14px; /* Adjust base size for scaling */
+  }
+
+  #banner {
+    height: 15rem;
+  }
+
+  #banner img {
+    height: 15rem;
+    object-position: center top;
+  }
+
+  #upperContainer {
+    margin: 1rem;
+  }
+
+  #upperContainer h1 {
+    font-size: 9vw;
+    text-align: center;
+  }
+
+  #upperContainer p {
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .profile {
+    width: 80px;
+    height: 80px;
+    left: 0;
+  }
+
+  #imgBubbles {
+    display: none;
+  }
+
+  #layout {
+    flex-direction: column;
+    margin: 1rem;
+    padding: 0;
+  }
+
+  main {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .mainContainer {
+    border-width: 1px;
+    border-radius: 10px;
+  }
+
+  #lower_mainContainer, 
+  #upper_mainContainer {
+    max-height: none;
+    padding: 1rem;
+    overflow-y: visible;
+  }
+
+  #rightContainer,
+  #leftContainer {
+    display: none;
+  }
+
+  .small {
+    display: flex;
+  }
+
+  .book,
+  .cover {
+    width: 100%;
+    height: auto;
+  }
+
+  .cover.open {
+    transform: rotateY(-120deg);
+  }
+
+  .lastImg img:nth-child(1) {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .lastImg img:nth-child(2) {
+    width: 80px;
+  }
+}
