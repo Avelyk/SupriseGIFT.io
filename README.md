@@ -23,7 +23,7 @@ ONLY WAY TO FIND OUT IS TO SEE FOR YOURSELF~
 
 ## 💬 Final Words
 
-I love you. More than words, code, or README files can say.  
+if there are buttons that are not working dont worry, its still loading so be patient and try again till it works
 Click around. Explore. This is your space. ✨ labyu~
 
 ## 💡 CLICK HERE TO VIEW
