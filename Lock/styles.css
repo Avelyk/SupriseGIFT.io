@@ -22,6 +22,7 @@ body{
 
 .mainContainer{
     background-color: rgb(254, 249, 243);
+    margin-top: 5rem;
     margin-bottom: 15rem;
     width: 40%;
     height: auto;
@@ -81,3 +82,7 @@ button a{
     text-decoration: none;
     color: white;
 }
+
+.hidden {
+    display: none;
+  }
